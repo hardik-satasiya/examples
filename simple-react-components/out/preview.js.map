@@ -1,1 +1,0 @@
-{"version":3,"file":"preview.js","sourceRoot":"","sources":["../src/preview.tsx"],"names":[],"mappings":";AAAA,uBAAqB;AACrB,0BAAwB;AAExB,+BAAgC;AAEhC,6CAIsB;AAGtB,uBAAwB,SAAQ,KAAK,CAAC,SAAmB;IACvD,MAAM;QACJ,MAAM,CAAC,6BAAK,SAAS,EAAC,SAAS;YAC7B;gBACE,oBAAC,mBAAM,yBAAwB,CAC3B;YACN;gBACE,oBAAC,mBAAM,2BAA0B,CAC7B,CACF,CAAC;IACT,CAAC;CACF"}
