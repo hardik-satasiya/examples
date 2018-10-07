@@ -11,7 +11,7 @@ module.exports = {
     index: [__dirname + '/src/entry.ts']
   },
   output: {
-    path: resolve(__dirname, 'public'),
+    path: resolve(__dirname, 'build'),
     libraryTarget: "umd",
     filename: '[name].bundle.js'
   },
