@@ -6,3 +6,5 @@ TODO:
 - [ ] React TodoMVC example
 - [ ] AngularJS example
 - [ ] workspace config for automatically starting webpack
+- [ ] sketch project examples
+- [ ] figma project examples
