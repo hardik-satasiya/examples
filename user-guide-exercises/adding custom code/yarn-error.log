@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/crcn/.nvm/versions/node/v8.11.3/bin/node /Users/crcn/.nvm/versions/node/v8.11.3/bin/yarn add webpack webpack-cli ts-loader paperclip-react-component --dev
+
+PATH: 
+  /Users/crcn/.cargo/bin:/Users/crcn/.nvm/versions/node/v8.11.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/paperclip-react-component: Not found
+      at Request.params.callback [as _callback] (/Users/crcn/.nvm/versions/node/v8.11.3/lib/node_modules/yarn/lib/cli.js:64202:18)
+      at Request.self.callback (/Users/crcn/.nvm/versions/node/v8.11.3/lib/node_modules/yarn/lib/cli.js:137468:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/Users/crcn/.nvm/versions/node/v8.11.3/lib/node_modules/yarn/lib/cli.js:138440:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/Users/crcn/.nvm/versions/node/v8.11.3/lib/node_modules/yarn/lib/cli.js:138362:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "todo-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": ""
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
