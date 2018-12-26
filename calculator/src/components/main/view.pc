@@ -162,7 +162,7 @@
               ],
               "metadata": {},
               "variant": {
-                "47b63f0e115": true
+                "47b63f0e115": false
               }
             },
             {
@@ -265,7 +265,9 @@
               ],
               "metadata": {},
               "variant": {
-                "47b63f0e115": true
+                "47b63f0e115": false,
+                "47b63f0e116": false,
+                "47b63f0e273": false
               }
             },
             {
@@ -367,7 +369,7 @@
               ],
               "metadata": {},
               "variant": {
-                "47b63f0e115": true
+                "47b63f0e115": false
               }
             },
             {
@@ -469,7 +471,7 @@
               ],
               "metadata": {},
               "variant": {
-                "47b63f0e115": true
+                "47b63f0e115": false
               }
             },
             {
@@ -521,7 +523,7 @@
               ],
               "metadata": {},
               "variant": {
-                "47b63f0e115": true
+                "47b63f0e115": false
               }
             },
             {
@@ -548,7 +550,7 @@
               ],
               "metadata": {},
               "variant": {
-                "47b63f0e115": true
+                "47b63f0e115": false
               }
             }
           ],
@@ -674,6 +676,38 @@
           ],
           "value": {
             "color": "var(--47b63f0e114)"
+          },
+          "name": "override",
+          "children": []
+        },
+        {
+          "id": "47b63f0e273",
+          "name": "variant",
+          "label": "selected operator",
+          "isDefault": true,
+          "children": [],
+          "metadata": {}
+        },
+        {
+          "id": "47b63f0e274",
+          "variantId": "47b63f0e273",
+          "propertyName": "style",
+          "targetIdPath": [],
+          "value": {
+            "background-image": "linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))"
+          },
+          "name": "override",
+          "children": []
+        },
+        {
+          "id": "47b63f0e275",
+          "variantId": "47b63f0e273",
+          "propertyName": "style",
+          "targetIdPath": [
+            "fae3cdfe69"
+          ],
+          "value": {
+            "color": "var(--47b63f0e120)"
           },
           "name": "override",
           "children": []

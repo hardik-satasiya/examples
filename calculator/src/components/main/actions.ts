@@ -22,22 +22,23 @@ export enum MainActionType {
   EQUALS_BUTTON_CLICKED = "EQUALS_BUTTON_CLICKED"
 }
 
-export type Action = BaseAction<MainActionType.CLEAR_BUTTON_CLICKED> 
-| BaseAction<MainActionType.TOGGLE_POSITIVE_BUTTON_CLICKED> 
-| BaseAction<MainActionType.DECIMAL_BUTTON_CLICKED>
-| BaseAction<MainActionType.DIVIDE_BUTTON_CLICKED>
-| BaseAction<MainActionType.SEVEN_BUTTON_CLICKED>
-| BaseAction<MainActionType.EIGHT_BUTTON_CLICKED>
-| BaseAction<MainActionType.NINE_BUTTON_CLICKED>
-| BaseAction<MainActionType.MULTIPLY_BUTTON_CLICKED>
-| BaseAction<MainActionType.FOUR_BUTTON_CLICKED>
-| BaseAction<MainActionType.FIVE_BUTTON_CLICKED>
-| BaseAction<MainActionType.SIX_BUTTON_CLICKED>
-| BaseAction<MainActionType.MINUS_BUTTON_CLICKED>
-| BaseAction<MainActionType.ONE_BUTTON_CLICKED>
-| BaseAction<MainActionType.TWO_BUTTON_CLICKED>
-| BaseAction<MainActionType.THREE_BUTTON_CLICKED>
-| BaseAction<MainActionType.PLUS_BUTTON_CLICKED>
-| BaseAction<MainActionType.ZERO_BUTTON_CLICKED>
-| BaseAction<MainActionType.DOT_BUTTON_CLICKED>
-| BaseAction<MainActionType.EQUALS_BUTTON_CLICKED>;
+export type Action =
+  | BaseAction<MainActionType.CLEAR_BUTTON_CLICKED>
+  | BaseAction<MainActionType.TOGGLE_POSITIVE_BUTTON_CLICKED>
+  | BaseAction<MainActionType.DECIMAL_BUTTON_CLICKED>
+  | BaseAction<MainActionType.DIVIDE_BUTTON_CLICKED>
+  | BaseAction<MainActionType.SEVEN_BUTTON_CLICKED>
+  | BaseAction<MainActionType.EIGHT_BUTTON_CLICKED>
+  | BaseAction<MainActionType.NINE_BUTTON_CLICKED>
+  | BaseAction<MainActionType.MULTIPLY_BUTTON_CLICKED>
+  | BaseAction<MainActionType.FOUR_BUTTON_CLICKED>
+  | BaseAction<MainActionType.FIVE_BUTTON_CLICKED>
+  | BaseAction<MainActionType.SIX_BUTTON_CLICKED>
+  | BaseAction<MainActionType.MINUS_BUTTON_CLICKED>
+  | BaseAction<MainActionType.ONE_BUTTON_CLICKED>
+  | BaseAction<MainActionType.TWO_BUTTON_CLICKED>
+  | BaseAction<MainActionType.THREE_BUTTON_CLICKED>
+  | BaseAction<MainActionType.PLUS_BUTTON_CLICKED>
+  | BaseAction<MainActionType.ZERO_BUTTON_CLICKED>
+  | BaseAction<MainActionType.DOT_BUTTON_CLICKED>
+  | BaseAction<MainActionType.EQUALS_BUTTON_CLICKED>;

@@ -1,4 +1,3 @@
-
 import * as ReactDOM from "react-dom";
 import * as React from "react";
 import { Application } from "./components/main/view.pc";
