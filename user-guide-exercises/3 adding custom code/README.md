@@ -1,4 +1,4 @@
-Basic React app using TypeScript.
+Basic React app using TypeScript. Associated user guide is here: https://github.com/crcn/tandem-preview/tree/master/docs/user-guide#integrating-with-code
 
 #### Installation
 
