@@ -8,10 +8,11 @@
       "is": "div",
       "style": {
         "background-image": "linear-gradient(var(--47b63f0e114), var(--47b63f0e114))",
-        "border-top-left-radius": "4px",
         "border-top-right-radius": "4px",
         "border-bottom-left-radius": "4px",
-        "border-bottom-right-radius": "4px"
+        "border-bottom-right-radius": "4px",
+        "max-width": "420px",
+        "border-top-left-radius": "4px"
       },
       "attributes": {},
       "id": "fae3cdfe3",
@@ -778,6 +779,51 @@
       "type": "color",
       "children": [],
       "metadata": {}
+    },
+    {
+      "id": "47b63f0e362",
+      "label": "Preview",
+      "is": "div",
+      "name": "element",
+      "attributes": {},
+      "style": {
+        "box-sizing": "border-box",
+        "display": "block",
+        "background-image": "linear-gradient(rgba(234, 234, 234, 1), rgba(234, 234, 234, 1))"
+      },
+      "children": [
+        {
+          "id": "47b63f0e299",
+          "is": "fae3cdfe3",
+          "label": "Application",
+          "name": "component-instance",
+          "attributes": {},
+          "style": {
+            "margin-left": "auto",
+            "margin-right": "auto",
+            "margin-bottom": "auto",
+            "margin-top": "200px"
+          },
+          "children": [],
+          "metadata": {
+            "bounds": {
+              "left": 970,
+              "right": 1345,
+              "top": 209,
+              "bottom": 876
+            }
+          },
+          "variant": {}
+        }
+      ],
+      "metadata": {
+        "bounds": {
+          "left": 1548,
+          "top": 414,
+          "right": 2729,
+          "bottom": 1227
+        }
+      }
     }
   ],
   "metadata": {}
