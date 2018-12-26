@@ -601,7 +601,8 @@
           "value": "button",
           "style": {
             "-moz-user-select": "none",
-            "user-select": "none"
+            "user-select": "none",
+            "font-weight": "500"
           },
           "children": [],
           "metadata": {},
@@ -685,7 +686,7 @@
           "id": "47b63f0e273",
           "name": "variant",
           "label": "selected operator",
-          "isDefault": true,
+          "isDefault": false,
           "children": [],
           "metadata": {}
         },
