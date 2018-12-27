@@ -233,7 +233,7 @@
                     {
                       "id": "5b90e54e399",
                       "is": "c3cf2ba6124",
-                      "label": "Button",
+                      "label": "clear todos button",
                       "name": "component-instance",
                       "attributes": {},
                       "style": {},
@@ -259,7 +259,7 @@
                         }
                       },
                       "variant": {
-                        "5b90e54e404": true
+                        "5b90e54e404": false
                       }
                     }
                   ],

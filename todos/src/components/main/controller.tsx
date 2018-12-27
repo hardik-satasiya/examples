@@ -5,6 +5,7 @@ export type Props = {} & BaseApplicationProps;
 
 type TodoItem = {
   text: string;
+  completed: boolean;
 };
 
 type State = {
@@ -47,12 +48,54 @@ export default (Base: React.ComponentClass<BaseApplicationProps>) =>
       });
     }
 
+    onToggleCompletedClick = todoItemIndex => {
+      this.setState({
+        ...this.state,
+        todoItems: this.state.todoItems.map((item, i) => {
+          if (i === todoItemIndex) {
+            return {
+              ...item,
+              completed: !item.completed
+            };
+          }
+
+          return item;
+        })
+      });
+    };
+
+    onClearTodosClick = () => {
+      this.setState({
+        ...this.state,
+        todoItems: this.state.todoItems.filter(item => {
+          return !item.completed;
+        })
+      });
+    };
+
     render() {
-      const { onInputChange, onAddTodoClick, onInputKeyDown } = this;
+      const {
+        onInputChange,
+        onAddTodoClick,
+        onInputKeyDown,
+        onToggleCompletedClick,
+        onClearTodosClick
+      } = this;
       const { ...rest } = this.props;
       const { todoItems, newTodoText } = this.state;
+      const hasCompleted = todoItems.some(item => item.completed);
+      console.log(hasCompleted);
       const items = todoItems.map((todoItem, i) => (
-        <TodoItemComponent key={i} labelProps={{ text: todoItem.text }} />
+        <TodoItemComponent
+          key={i}
+          labelProps={{ text: todoItem.text }}
+          completedInputProps={
+            {
+              checked: todoItem.completed,
+              onClick: () => onToggleCompletedClick(i)
+            } as any
+          }
+        />
       ));
       return (
         <Base
@@ -66,6 +109,10 @@ export default (Base: React.ComponentClass<BaseApplicationProps>) =>
             } as any
           }
           addTodoButtonProps={{ onClick: onAddTodoClick }}
+          clearTodosButtonProps={{
+            onClick: onClearTodosClick,
+            variant: hasCompleted ? null : "disabled"
+          }}
         />
       );
     }
