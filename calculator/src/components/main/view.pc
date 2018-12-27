@@ -819,10 +819,10 @@
       ],
       "metadata": {
         "bounds": {
-          "left": 1548,
-          "top": 414,
-          "right": 2729,
-          "bottom": 1227
+          "left": 763,
+          "top": -16,
+          "right": 1944,
+          "bottom": 797
         }
       }
     }
