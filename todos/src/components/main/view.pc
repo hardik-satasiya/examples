@@ -66,23 +66,15 @@
               },
               "children": [
                 {
-                  "id": "c3cf2ba6121",
+                  "id": "5b90e54e460",
+                  "is": "5b90e54e459",
                   "label": "input",
-                  "is": "input",
-                  "name": "element",
+                  "name": "component-instance",
                   "attributes": {},
-                  "style": {
-                    "box-sizing": "border-box",
-                    "display": "inline-block",
-                    "margin-right": "12px"
-                  },
+                  "style": {},
                   "children": [],
                   "metadata": {},
-                  "styleMixins": {
-                    "5b90e54e102": {
-                      "priority": 0
-                    }
-                  }
+                  "variant": {}
                 },
                 {
                   "id": "5b90e54e391",
@@ -362,13 +354,22 @@
       ],
       "metadata": {
         "bounds": {
-          "left": 490,
-          "top": -194,
-          "right": 1066,
-          "bottom": -144
+          "left": 303,
+          "top": -391,
+          "right": 879,
+          "bottom": -341
         }
       },
       "variant": {}
+    },
+    {
+      "id": "5b90e54e525",
+      "name": "variable",
+      "value": "rgba(56, 189, 255, 1)",
+      "label": "blue 1",
+      "type": "color",
+      "children": [],
+      "metadata": {}
     }
   ],
   "metadata": {}
