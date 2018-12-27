@@ -1,9 +1,7 @@
-
-const {resolve} = require("path");
-const webpack   = require("webpack");
+const { resolve } = require("path");
+const webpack = require("webpack");
 const fs = require("fs");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-
 
 module.exports = {
   devtool: "none",
@@ -17,21 +15,25 @@ module.exports = {
   },
   resolve: {
     extensions: [".js", ".ts", ".tsx"],
-    modules: [
-      resolve(__dirname, "node_modules")
-    ]
+    modules: [resolve(__dirname, "node_modules")]
   },
   plugins: [
-    new HtmlWebpackPlugin()
+    new HtmlWebpackPlugin({
+      template: __dirname + "/src/index.html"
+    })
   ],
   module: {
     rules: [
-      { test: /.pc$/, use: [{
-          loader: "paperclip-react-loader",
-          options: {
-            config: JSON.parse(fs.readFileSync("./app.tdproject", "utf8"))
+      {
+        test: /.pc$/,
+        use: [
+          {
+            loader: "paperclip-react-loader",
+            options: {
+              config: JSON.parse(fs.readFileSync("./app.tdproject", "utf8"))
+            }
           }
-        }]
+        ]
       },
       {
         test: /.tsx?$/,
