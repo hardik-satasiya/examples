@@ -1,3 +1,3 @@
 Calculator app demo.
 
-[!Screenshot](./screenshot.png)
+![Screenshot](./screenshot.png)
