@@ -17,7 +17,7 @@
         "border-top-right-radius": "2px",
         "border-bottom-left-radius": "2px",
         "border-bottom-right-radius": "2px",
-        "background-image": "linear-gradient(rgba(200, 200, 200, 1), rgba(200, 200, 200, 1))",
+        "background-image": "linear-gradient(var(--5b90e54e79), var(--5b90e54e79))",
         "user-select": "none",
         "-moz-user-select": "none",
         "cursor": "pointer"
